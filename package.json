@@ -1,6 +1,6 @@
 {
   "name": "panda-package",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Panda!",
   "main": "index.js",
   "scripts": {
@@ -17,5 +17,8 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/kaylangan/panda-package.git"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
   }
 }
