@@ -1,5 +1,5 @@
 {
-  "name": "panda-package",
+  "name": "@kaylangan/panda-package",
   "version": "0.6.0",
   "description": "Panda!",
   "main": "index.js",
