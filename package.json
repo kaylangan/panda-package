@@ -13,6 +13,6 @@
   ],
   "author": "Kayla Ngan",
   "license": "MIT",
-  "homepage": "https://github.com/kaylangan/panda-package"
+  "homepage": "https://github.com/kaylangan/panda-package",
   "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
