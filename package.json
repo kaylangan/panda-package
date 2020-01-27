@@ -1,24 +1,25 @@
 {
   "name": "@kaylangan/panda-package",
-  "version": "0.6.0",
+  "version": "0.10.0",
   "description": "Panda!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Who needs tests?\" && exit 0"
+  "test": "echo \"Who needs tests?\" && exit 0"
   },
   "keywords": [
-    "node",
-    "npm",
-    "panda"
+  "node",
+  "npm",
+  "panda",
+  "supercallafragilistic"
   ],
   "author": "Kayla Ngan",
   "license": "MIT",
   "homepage": "https://github.com/kaylangan/panda-package",
   "repository": {
-    "type": "git",
-    "url": "git://github.com/kaylangan/panda-package.git"
+  "type": "git",
+  "url": "git://github.com/kaylangan/panda-package.git"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+  "registry":"https://npm.pkg.github.com/"
   }
-}
+  }
