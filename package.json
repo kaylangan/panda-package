@@ -1,6 +1,6 @@
 {
   "name": "@kaylangan/panda-package",
-  "version": "0.10.0",
+  "version": "0.15.0",
   "description": "Panda!",
   "main": "index.js",
   "scripts": {
