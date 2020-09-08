@@ -1,6 +1,6 @@
 {
   "name": "@kaylangan/panda-package",
-  "version": "9.8.20",
+  "version": "9.8.21",
   "description": "Panda!",
   "main": "index.js",
   "scripts": {
