@@ -18,7 +18,8 @@
     "type": "git",
     "url": "git://github.com/kaylangan/panda-package.git"
   },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kaylangan/panda-package2.git"
   }
 }
