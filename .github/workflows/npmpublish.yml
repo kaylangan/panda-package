@@ -1,14 +1,14 @@
 name: Node.js Package
 
 on:
-  push:
-    branches: master
+  pull_request:
+    branches: [master]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
           node-version: 12
@@ -19,11 +19,12 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-          registry-url: https://npm.pkg.github.com
+          registry-url: https://npm.pkg.github.com/
+          scope: '@kaylangan'
       - run: npm ci
       - run: npm publish
         env:
